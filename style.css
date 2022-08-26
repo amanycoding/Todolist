@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+body{
+    background:linear-gradient(rgb(197, 220, 67),rgb(84, 99, 201));
+    height:100vh;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid rgb(72, 36, 3);
+    width:60%;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:10px;
+
+
+    background: rgba( 157, 143, 236, 0.6 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 10.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-bottom:3px solid #fff;
+
+}
+p{
+    font-size:25px;
+}
+.icon{
+    font-size:22px;
+    opacity: 0.6;
+}
+.icon:hover{
+    color: blue;
+    font-size:27px;
+    transition: 0.3s;
+    cursor:pointer;
+    opacity:1;
+}
+.man h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+form{
+    text-align: center;
+    margin-top: 30px;
+}
+form input{
+    border-radius: 20px;
+    width:40%;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+
+    background: rgba( 220, 228, 124, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+button{
+    all:unset;
+}
+.icon-upload2{
+    font-size: 30px;
+    color:rgb(64, 16, 167);
+}
+.icon-upload2:hover{
+    font-size: 35px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+.dn{
+    display:none;
+}
+.icon-heart{
+    color:red;
+}
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style:wavy ;
+}
+.yeloo{
+    color:rgb(244, 182, 27);
+}
